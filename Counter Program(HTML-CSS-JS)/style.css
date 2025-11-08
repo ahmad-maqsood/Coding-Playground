@@ -1,0 +1,24 @@
+#counter{
+    display: block;
+    font-size: 5em;
+    text-align: center;
+}
+
+#buttonsDiv{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aqua;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons:hover{
+background-color: rgb(16, 167, 167);
+}
