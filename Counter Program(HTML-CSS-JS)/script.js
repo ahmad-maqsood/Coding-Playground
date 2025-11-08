@@ -7,7 +7,7 @@ let count = 0;   //JS var
 
 increase.onclick = function(){
 count++;
-counter.textContent = count++;
+counter.textContent = count;
 }
 
 decrease.onclick = function(){
@@ -18,4 +18,5 @@ counter.textContent = count;
 reset.onclick = function(){
 count = 0;
 counter.textContent = count;
+
 }
