@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: linear-gradient(90deg, hsla(239, 100%, 67%, 1) 0%, hsla(187, 100%, 89%, 1) 100%);
+    /* font-family:; */
+}
+#container{
+
+    text-align: center;
+    background: linear-gradient(90deg, rgb(32, 32, 75) 0%, hsla(187, 100%, 89%, 1) 100%);
+    max-width: 450px;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(157, 170, 43);
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+h1{
+    
+    margin-top: 20px;
+    color: hsl(0, 0%, 0%);
+}
+#inputBox{
+
+    background-color: rgba(27, 8, 8, 0.3);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+}
+#inputBox::placeholder{
+
+    color: rgba(219, 204, 204,0.4);
+    font-weight: 550;
+    font-size: 1.2em;
+}
+.radioBtns{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight:bold ;
+}
+#convertBtn{
+
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#convertBtn:hover{
+    
+    background-color: rgb(153, 0, 0);
+}
+
+#outputText{
+
+    margin-top: 20px;
+}

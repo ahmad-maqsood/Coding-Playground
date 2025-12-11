@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+main{
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#introMessage{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#inputBox{
+    padding: 15px 170px 11px 15px;
+    background-color: rgba(3, 9, 9, 0.8);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#submitBtn{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#outputMsgDiv{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
