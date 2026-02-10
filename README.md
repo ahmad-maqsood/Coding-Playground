@@ -58,5 +58,4 @@ New projects will be added as learning continues.
 
 ## License
 
-This repository is for learning and personal use.  
-Feel free to explore the code.
+MIT License
